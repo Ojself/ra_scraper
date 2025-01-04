@@ -1,0 +1,5 @@
+{
+  "name": "ra_scraper",
+  "version": "1.0.0",
+  "description": "Chrome extension to scrape RA data and post to Sanity"
+}

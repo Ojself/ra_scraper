@@ -1,0 +1,23 @@
+
+
+{
+  "manifest_version": 3,
+  "name": "...",
+  "version": "1.0",
+  "description": "Scrapes RA event data and saves to Sanity - no bundling",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": ["*://*.ra.co/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.ra.co/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
