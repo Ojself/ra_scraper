@@ -5,7 +5,7 @@
 const client = window.SanityClient.createClient({
   projectId: 'e5nubesn',
   dataset: 'production',
-  token: '',
+  token: 'skWo5yBsgpGnwsFSMA4pZ8PbPoJFEMzcBip81Rs1I2dYbNttpm63GVFDTvrokkev8jinF8G18HJA2cW0CYnOBSt9xeqRSM3MAzNo57I2GjQ09wv9FzxMU64sk3hwLCxpbZrnlrbNtg3wZLdc5X4J999UJWyx9pNwYZYzOM3k9TASIkC53wm1',
   apiVersion: '2024-01-01',
   useCdn: false,
 });
